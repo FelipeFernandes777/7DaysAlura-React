@@ -11,6 +11,8 @@ const Links = styled.a`
   gap: 1rem;
   cursor: pointer;
   color: #202020;
+
+  background-color: transparent;
 `;
 
 const Bar = styled.div`

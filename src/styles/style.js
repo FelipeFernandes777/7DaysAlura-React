@@ -7,11 +7,12 @@ const SectionPage = styled.section`
 `;
 
 const MainContent = styled.main`
-  margin-top: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
+  height: 50vh;
 `;
 
 export { SectionPage, MainContent };

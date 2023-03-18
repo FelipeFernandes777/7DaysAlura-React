@@ -8,6 +8,7 @@ const NavBarContainer = styled.nav`
 
   width: auto;
   height: auto;
+  background-color: transparent;
 `;
 
 export default NavBarContainer;
