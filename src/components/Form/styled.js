@@ -38,7 +38,7 @@ const InputForm = styled.input`
   color: #202020;
   padding: 1.2rem;
   width: 40.8rem;
-  height: 4.2rem;
+  height: 6.2rem;
   border: none;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
 `;
@@ -51,7 +51,7 @@ const ButtonForm = styled.button`
   color: #ffffff;
   box-shadow: 1rem 1rem 3rem rgba(255, 203, 71, 0.3);
   width: 16.5rem;
-  height: 4.2rem;
+  height: 6.2rem;
   border: none;
   font-size: 1.6rem;
 `;

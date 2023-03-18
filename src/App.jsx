@@ -19,13 +19,22 @@ function App() {
             position: "absolute",
             top: "0",
             right: "0rem",
-            height: "69.5rem",
+            height: "65.5rem",
           }}
         />
         <Menu />
         <MainContent>
           <Form />
-          <div style={{ background: "transparent" }}>
+          <div
+            style={{
+              background: "transparent",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              overflow: "hidden",
+              marginLeft: "1.3rem",
+            }}
+          >
             <img
               src={planta}
               alt="Planta"
