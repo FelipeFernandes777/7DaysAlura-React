@@ -1,7 +1,8 @@
 import GlobalStyle from "./styles/GlobalStyle";
 import Menu from "./components/Menu";
+import Form from "./components/Form/Index";
 
-import { SectionPage } from "./styles/style";
+import { SectionPage, MainContent } from "./styles/style";
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <GlobalStyle />
       <SectionPage>
         <Menu />
+        <MainContent>
+          <Form />
+        </MainContent>
       </SectionPage>
     </div>
   );

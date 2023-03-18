@@ -9,7 +9,7 @@ const ContainerMenu = styled.header`
   justify-content: space-evenly;
   background-color: transparent;
 
-  position: absolute;
+  position: relative;
   top: 0;
   margin-bottom: 1.3rem;
 `;

@@ -9,7 +9,7 @@ const Links = styled.a`
   justify-content: center;
   text-decoration: none;
   gap: 1rem;
-
+  cursor: pointer;
   color: #202020;
 `;
 

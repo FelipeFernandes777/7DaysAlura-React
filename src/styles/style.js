@@ -6,4 +6,12 @@ const SectionPage = styled.section`
   height: 100vh;
 `;
 
-export { SectionPage };
+const MainContent = styled.main`
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+`;
+
+export { SectionPage, MainContent };

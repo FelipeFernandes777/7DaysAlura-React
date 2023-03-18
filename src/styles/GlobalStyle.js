@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
 
   font-family:  "Montserrat", sans-serif;
   font-size: 62.5%; // 10px
+  background-color: #fafafa;
 }
 `;
 
