@@ -12,7 +12,7 @@ const MainContent = styled.main`
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  height: 50vh;
+  height: 86vh;
 `;
 
 export { SectionPage, MainContent };

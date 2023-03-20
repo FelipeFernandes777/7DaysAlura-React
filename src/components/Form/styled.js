@@ -56,6 +56,18 @@ const ButtonForm = styled.button`
   font-size: 1.6rem;
 `;
 
+// Modal
+
+const ModalContainer = styled.div`
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
 export {
   TitleForm,
   SubTitleForm,
@@ -63,4 +75,5 @@ export {
   InputForm,
   ButtonForm,
   SubmitContainer,
+  ModalContainer,
 };

@@ -10,8 +10,6 @@ const ContainerMenu = styled.header`
   background-color: transparent;
 
   position: relative;
-  top: 0;
-  margin-bottom: 1.3rem;
 `;
 
 export { ContainerMenu };

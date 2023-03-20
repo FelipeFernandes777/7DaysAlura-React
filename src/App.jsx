@@ -5,10 +5,11 @@ import Form from "./components/Form/Index";
 import { SectionPage, MainContent } from "./styles/style";
 import planta from "./assets/Home/imagem-hero 1.png";
 import vetor from "./assets/Home/Vector.png";
+import Info from "./components/Info/Index";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ overflowX: "hidden" }}>
       <GlobalStyle />
 
       <SectionPage style={{ position: "relative" }}>
@@ -17,35 +18,28 @@ function App() {
           alt="Vector Amarelo"
           style={{
             position: "absolute",
-            top: "0",
-            right: "0rem",
-            height: "65.5rem",
+            top: "-5.42rem",
+            right: "-5rem",
+            height: "63.2rem",
           }}
         />
         <Menu />
-        <MainContent>
+        <MainContent style={{ overflow: "hidden" }}>
           <Form />
-          <div
-            style={{
-              background: "transparent",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              overflow: "hidden",
-              marginLeft: "1.3rem",
-            }}
-          >
+          <div style={{ overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", }}>
             <img
               src={planta}
               alt="Planta"
               style={{
                 position: "relative",
                 background: "transparent",
-                height: "86rem",
+                height: "80rem",
+                width: "80rem",
               }}
             />
           </div>
         </MainContent>
+        <Info />
       </SectionPage>
     </div>
   );

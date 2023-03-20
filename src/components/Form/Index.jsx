@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 
 import {
   TitleForm,
@@ -7,16 +7,19 @@ import {
   InputForm,
   ButtonForm,
   SubmitContainer,
+  ModalContainer,
 } from "./styled";
 
 export default function Form() {
+  const [email, setEmail] = useState("");
+
   const onSubmit = (event) => {
     event.preventDefault();
   };
 
   return (
     <form onSubmit={onSubmit}>
-      <div style={{ width: "58.5rem", height: "auto" }}>
+      <div style={{ width: "50rem", height: "32.3rem" }}>
         <SubTitleForm>Sua casa com as </SubTitleForm>
         <TitleForm>melhores plantas</TitleForm>
         <TextForm>
@@ -26,7 +29,11 @@ export default function Form() {
         </TextForm>
       </div>
       <SubmitContainer>
-        <InputForm type="text" placeholder="Insira seu e-mail" />
+        <InputForm
+          type="text"
+          placeholder="Insira seu e-mail"
+          onChange={(event) => setEmail(event.target.value)}
+        />
         <ButtonForm>Assinar Newsletter</ButtonForm>
       </SubmitContainer>
     </form>
